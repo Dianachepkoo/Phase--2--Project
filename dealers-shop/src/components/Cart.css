@@ -1,0 +1,79 @@
+/* Styling for the entire cart container */
+.cart-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styling for the checkout link */
+  .checkout-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+  }
+  
+  .total-cost {
+    font-size: 10px;
+  }
+  
+  button {
+    background-color: #007af3;
+    color: #db3030;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #7daddd;
+  }
+  
+  /* Styling for individual products */
+  .product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #e64141;
+    margin-bottom: 10px;
+  }
+  
+  .product-image {
+    max-width: 50px;
+    height: auto;
+    margin-right: 1px;
+  }
+  
+  .product-name {
+    font-size: 4px;
+    margin: 0;
+  }
+  
+  .product-price {
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  .product-rank {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  button {
+    background-color: #0f25e9; /* Example button color */
+    color: #ffffff;
+    border: none;
+    padding: 2px 2px;
+    font-size: 9px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #cc0000; /* Example button hover color */
+  }
+  
